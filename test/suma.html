@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alan</title>
+        
+    </head>
+    <body>
+
+    	<script>
+    		
+    		var base;
+var exponente;
+base =prompt('Ingrese la base:','');
+exponente =prompt('Ingrese el exponente:','');
+
+var r = 1; 
+ for(var i=0; i<exponente; i++){
+     
+     var suma =0; 
+
+        for(var j=0; j<r; j++){
+            suma = suma + base; 
+            
+        }
+        r = suma;
+      
+   }
+document.write('el total es' + r);
+    	</script>
+       
+    </body>
+</html>

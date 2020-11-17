@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ordenamiento de vectores</title>
+	
+</head>
+<body>
+
+	<div><br />
+<br />
+1. Ordenamiento de vectores:</div>
+<ul>
+    <li>a. Se debe crear un vector de 100 posiciones y cargarlo din&aacute;micamente</li>
+    <li>con valores entre 1 y 100000.</li>
+    <li>b. Se debe ordenar el vector de mayor a menor.</li>
+    <li>c. Imprimir el resultado en pantalla.</li>
+</ul>
+
+<script>
+	var vector = [];
+var num;
+var organizados;
+for(var i=0; i<100; i++){
+   num = Math.floor(Math.random() * 100000);
+    vector[i]= num;
+    
+}
+organizados = vector.sort((a,b)=>a-b);
+console.log(vector);
+console.log(organizados);
+document.write("<h3>Vector</h3>");
+document.write(vector);
+
+document.write("<br/>");
+document.write("<h3>Organizados</h3>");
+
+document.write(organizados);
+</script>
+
+		 
+	
+</body>
+</html>
